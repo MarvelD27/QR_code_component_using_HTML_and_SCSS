@@ -1,0 +1,16 @@
+@use "../util" as u;
+
+h1 {
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: u.rem(22);
+text-align: center;
+  color: var(--dark-navy);
+}
+h2 {
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: u.rem(15);
+  color: var(--grey);
+  text-align: center;
+}

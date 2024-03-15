@@ -1,0 +1,29 @@
+@use "util" as u;
+
+.frame{
+    background-color: var(--white);
+    width: u.rem(320);
+    height: u.rem(497);
+    padding-inline: u.rem(16);
+    padding-block-start: u.rem(16);
+    // padding-block-end: 1px;
+}
+
+.rounded{
+    border-radius: u.rem(20);
+
+    &__img{
+        border-radius: u.rem(10);
+    }
+}
+
+.section_bottom{
+    margin-block-start: u.rem(24);
+    margin-block-end: u.rem(40);
+    width: u.rem(288);
+    height: u.rem(129);
+    padding-inline: u.rem(16);
+}
+h1{
+    margin-block-end: u.rem(16);
+}
